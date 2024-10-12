@@ -1,0 +1,286 @@
+nav{
+    /* background: linear-gradient(90deg, rgba(85,103,156,1) 0%, rgba(32,30,67,1) 58%, rgba(22,50,91,1) 100%); */
+    background-color: #001F3F;
+    max-height: 50px !important;
+
+}
+body{
+    /* background: linear-gradient(90deg, rgba(255,220,127,1) 0%, rgba(225,215,183,1) 39%, rgba(250,255,175,1) 100%); */
+    background-color: #fefefe;
+    height: 100vh;
+}
+.home-btn{
+    background-color: #001F3F !important;
+    color: #fefefe;
+}
+.home-btn-2{
+    background-color: #001f3fd7 !important;
+    color: #fefefe;
+}
+.home-btn:hover{
+    color: #fefefe !important;
+    background-color: #001f3fdc !important;
+}
+.home-btn-2:hover{
+    color: #fefefe !important;
+    background-color: #001f3f71 !important;
+}
+.brand{
+    color: #3A6D8C;
+    font-weight: bolder;
+    font-size: 15px !important;
+    /* font-family: sans-serif; */
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s ease;
+}
+.l-navbar{
+    transition: 0.2s ease;
+    border-radius: 10px;
+    font-size: 16px !important;
+
+}
+.brand:hover , .l-navbar:hover {
+    transform: scale(1.1);
+    color: #d6d6d6;
+}
+.l-navbar.active{
+    background-color: #ededed;
+    border-radius: 10px;
+    color: #001F3F;
+}
+.l-navbar{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #3A6D8C;
+    padding: 5px;
+}
+.info h2{
+    display: flex;
+    justify-content: center;
+    color: #001F3F;
+    margin-top:10px;
+    margin: 15px auto;
+    transition: 0.1s ease;
+}
+.info h2:hover{
+    color: #3A6D8C;
+}
+p{
+    margin: 0 auto;
+    font-weight: 500;
+    word-spacing: 5px;
+    text-align: left;
+}
+.title-features{
+    margin-left: 10px;
+    color: #033250;
+    text-align: center;
+    
+}
+.Features{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+} 
+.left , .right{
+    text-align: left;
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+.left h4 ,.right h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #3A6D8C;
+}
+.left p ,.right p{
+    text-align: left;
+    max-width: 45%;
+    margin: 0 10px;
+}
+.left{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.right{
+    padding-left: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.buttons a{
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.feature-card {
+    background: #ededed;
+    border-radius: 10px;
+    color: #3A6D8C;
+    padding: 20px;
+    margin: 10px;
+    width: 30%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.pricing-card {
+    background: #ededed;
+    border-radius: 10px;
+    color: #3A6D8C;
+    padding: 20px;
+    margin: 10px;
+    width: 25%; /* Adjust width as needed */
+    height: 400px; /* Set a fixed height for vertical cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space out elements */
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+.pricing-card:hover .brand{
+    color: #3A6D8C;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+}
+
+.current-price {
+    font-weight: bold;
+    color: rgba(32, 30, 67, 1);
+}
+
+/* Styles for the login form card */
+.login-card {
+    background: #ededed;
+    border-radius: 10px;
+    color: #3A6D8C;
+    padding: 20px;
+    margin: 20px auto; /* Center the card */
+    width: 80%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.login-card:hover {
+    transform: scale(1.02); /* Slightly scale on hover */
+}
+
+/* Adjust the button styles */
+.btn-primary {
+    background-color: #3A6D8C; /* Change button color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #2a4d5c; /* Darker shade on hover */
+}
+
+/* Adjust the input fields */
+.form-control {
+    border: 1px solid #3A6D8C; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.form-control:focus {
+    border-color: #2a4d5c; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(42, 77, 92, 0.5); /* Add shadow on focus */
+}
+
+/* Styles for the registration form card */
+.register-card {
+    background: #ededed;
+    border-radius: 10px;
+    color: #3A6D8C;
+    padding: 20px;
+    margin: 20px auto; /* Center the card */
+    width: 80%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.register-card:hover {
+    transform: scale(1.02); /* Slightly scale on hover */
+}
+
+/* Styles for the time input card */
+.time-card {
+    background: #ededed;
+    border-radius: 10px;
+    color: #3A6D8C;
+    padding: 20px;
+    margin: 20px auto; /* Center the card */
+    width: 40%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.time-card:hover {
+    transform: scale(1.02); /* Slightly scale on hover */
+}
+
+/* Adjust the button styles */
+.btn-primary {
+    background-color: #3A6D8C; /* Change button color */
+    border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+    background-color: #2a4d5c; /* Darker shade on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gray color for reset button */
+    border: none; /* Remove border */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red color for cancel button */
+    border: none; /* Remove border */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Adjust the input fields */
+.form-control {
+    border: 1px solid #3A6D8C; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.form-control:focus {
+    border-color: #2a4d5c; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(42, 77, 92, 0.5); /* Add shadow on focus */
+}
